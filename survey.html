@@ -1,0 +1,150 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+
+<!DOCTYPE html>
+
+
+<link rel="stylesheet" href="style/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div id="head">
+    <header>
+        <h1 id="title">INTERNAZIONALE FC</h1>
+        <p id="description">Internazionale FC is searching for REAL fans!</p>
+    </header>
+    <img src="https://upload.wikimedia.org/wikipedia/it/1/17/Inter_logo_centenario_2007-2014.svg">
+    
+        
+</div>
+
+<hr>
+
+<main id="container">
+    <body>
+        <form id="survey-form">
+        <label id="name-label">
+            <h2>Name</h2>  
+            <input
+            id="name"
+            type="text"
+            class="highlight"
+            required
+            placeholder="Enter your name...">            
+        </label>
+        </form>
+
+        <form id="survey-form">
+            <label id="email-label">
+                <h2>E-mail</h2>
+                <input
+                id="email"
+                type="email"
+                class="highlight"
+                required
+                placeholder="Enter your e-mail...">
+            </label>
+        </form>
+
+        <form id="survey-form">
+            <label id="number-label">
+                <h2>Age</h2>
+                <input
+                type="number"
+                class="highlight"
+                id="number"
+                required
+                min="13"
+                max="99"
+                placeholder="Enter your age...">
+            </label>
+        </form>
+
+        <form id="survey-form">
+            <h2>Who is Inter FC current coach?</h2>
+            <label id="coach">
+            <select class="highlight" id="dropdown">
+                <option  disabled selected>Select from dropdown...</option>
+                <option value="conte">Antonio Conte</option>
+                <option value="spalletti">Luciano Spalletti</option>
+                <option value="mourinho">Jose Mourinho</option>
+            </select>
+            </label>
+        </form>
+
+        <form id="survey-form">
+            <h2>When did Internazionale FC achieve the treble?</h2>
+            <div id="radiobox">
+                <input
+                type="radio"
+                value="2009"
+                id="question1"
+                name="treble">
+                <label id="treble">2009-2010</label>
+                <br>
+            
+            <input
+                type="radio"
+                value="2010"
+                id="question2"
+                name="treble">
+                <label>2010-2011</label>
+                <br>
+                
+            <input
+                type="radio"
+                value="2008"
+                id="question3"
+                name="treble">
+                <label>2008-2009</label>
+                <br>
+            </div>
+        </form>
+
+        <form id="survey-form">
+            <h2>When was the club founded?</h2>
+            <div id="cbox">
+            <input
+                type="checkbox"
+                id="question4"
+                name="founded"
+                value="1907">
+                <label>1907</label>
+                <br>
+            
+            <input
+                type="checkbox"
+                id="question5"
+                name="founded"
+                value="1908">
+                <label>1908</label>
+                <br>
+
+            
+            <input
+                type="checkbox"
+                id="question6"
+                name="founded"
+                value="1909">
+            <label>1909</label>
+        </div>
+        </form>
+
+        
+        <h3>Challange us by leaving more facts!</h3>
+        <textarea placeholder="Enter text..."></textarea>
+        
+        
+        <form id="survey-form">
+            <button id="submit">Submit</button>
+        </form>
+
+        <div id="bar"></div>
+
+    </body>
+
+    
+</main>
